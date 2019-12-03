@@ -23,7 +23,7 @@ function merge(arr1, arr2) {
     results.push(arr1[i]);
     i++;
   }
-  while (j < arr2[j]) {
+  while (j < arr2.length) {
     results.push(arr2[j]);
     j++;
   }
