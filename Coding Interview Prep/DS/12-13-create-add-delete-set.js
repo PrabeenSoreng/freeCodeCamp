@@ -1,0 +1,11 @@
+function checkSet() {
+  let set = new Set([1, 2, 3, 3, 2, 1, 2, 3, 1]);
+  set.add("Taco");
+  set.add("Cat");
+  set.add("Awesome");
+  set.delete(3);
+  console.log(Array.from(set));
+  return set;
+}
+
+checkSet();
